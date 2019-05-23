@@ -1,0 +1,15 @@
+amazonProperties:
+  endpointUrl: https://s3.us-east-1.amazonaws.com
+  accessKey: XXXXXXXXXXXXXXXXXXX
+  secretKey: XXXXXXXXXXXXXXXXXXX
+  bucketName: bucket-Name
+  bucketRegion: us-east-1
+
+server:
+  port : 9001
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
